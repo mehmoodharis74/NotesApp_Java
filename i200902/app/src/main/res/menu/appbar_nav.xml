@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/sort_new_created"
+            android:orderInCategory="2"
+            android:title="Created (Newest first)" />
+        <item
+            android:id="@+id/sort_old_created"
+
+            android:orderInCategory="1"
+            android:title="Created (Oldest first)" />
+        <item
+            android:id="@+id/sort_new_update"
+            android:orderInCategory="4"
+            android:title="Updated (Newest first)"
+            />
+        <item
+            android:id="@+id/sort_old_update"
+            android:orderInCategory="3"
+            android:title="Updated (Oldest first)" />
+    </group>
+</menu>

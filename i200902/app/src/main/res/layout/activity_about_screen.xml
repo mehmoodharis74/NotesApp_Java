@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".aboutScreen">
+
+    <ImageView
+        android:id="@+id/about_screen_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/about_screen_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="This app is made by me, a student of BSc. Computer Science and Engineering at Daffodil International University. I am a self-taught Android developer.I have used Firebase In-App Messaging as the in-app messaging service. I have used Firebase Dynamic Links as the dynamic links service. I have used Firebase App Indexing as the app indexing service. I have used Firebase Cloud Firestore as the database service. I have used Firebase Cloud Functions as the serverless functions service. I have used Firebase Cloud Storage as the storage service. I have used Firebase Cloud Messaging as the messaging service. I have used Firebase Crashlytics as the crash reporting service. I have used Firebase Analytics as the analytics service. I have used Firebase Remote Config as the remote configuration service. I have used Firebase App Distribution as the app distribution service. I have used Firebase Test Lab as the testing service. I have used Firebase Performance Monitoring as the performance monitoring service. I have used Firebase In-App Messaging as the in-app messaging service. I have used Firebase Dynamic Links as the dynamic links service. I have used Firebase App Indexing as the app indexing service. I have used Firebase Cloud Firestore"/>
+
+</LinearLayout>
